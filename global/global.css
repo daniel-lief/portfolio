@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: "Inter", sans-serif;
+    color:rgb(50,50,50);
+    --primColor:rgb(49, 218, 153);
+    overflow-x:hidden;
+}
+div{
+    position:absolute;
+}
+a{
+    position:absolute;
+}
+button{
+    position:absolute;
+    font-family: "Inter", sans-serif;
+}
+img{
+    position:absolute;
+}
+.hCen{
+    text-align:center;
+}
+.fCen{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.boldFont{
+    font-weight:500;
+}
+.medFont{
+    font-weight:400;
+}
+.lightFont{
+    font-weight:300;
+}
+.buttonFont{
+    font-weight:500;
+}
+.button{
+    outline:none;
+    text-decoration:none;
+    transition:0.1s all;
+}
+.primButton{
+    color:white;
+    background-color:var(--primColor);
+}
+.link{
+    text-decoration:none;
+    color:rgb(50,50,50);
+    transition:transform 0.1s;
+}
+.link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.5vw;
+  width: 0;
+  height: 1vw;
+  transform:scaleY(0.06);
+  background: #292929;
+  transition: width 0.3s ease;
+}
+.link:hover::after {
+  width: 100%;
+}

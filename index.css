@@ -1,0 +1,53 @@
+#pitch{
+    left:20vw;
+    width:40vw;
+    top:9vw;
+    font-size:6vw;
+    line-height:1.2;
+}
+#subpitch{
+    left:20vw;
+    width:35vw;
+    top:25vw;
+    font-size:1.5vw;
+    line-height:1.8
+}
+#pic{
+  width:20vw;
+  border-radius:0.8vw;
+  left:60vw;
+  top:10vw;
+}
+.divider{
+    left:20vw;
+    width:60vw;
+    height:0.8vw;
+    transform:scaleY(0.1);
+    background-color:rgb(50, 50, 50);
+}
+.label{
+    left:20vw;
+    font-size:1.5vw;
+    background-color:white;
+    padding-right:0.8vw;
+}
+.banner{
+    cursor:pointer;
+    transition:0.2s all;
+    left:20vw;
+    width:60vw;
+}
+.banner:hover{
+    transform:scale(1.02);
+}
+.expand{
+    transform:scale(0);
+    animation-name:expand;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
+    animation-delay:0.3s;
+}
+@keyframes expand{
+    0%{transform:scale(0);}
+    100%{transform:scale(1);}
+}

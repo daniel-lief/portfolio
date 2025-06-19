@@ -1,0 +1,49 @@
+.headLink{
+    top:1.8vw;
+    font-size:clamp(16px,1.10vw,1.10vw);
+}
+.footLink{
+    font-size:1.10vw;
+    opacity:0.5;
+}
+#header{
+    left:0;
+    width:100vw;
+    height:5vw;
+    top:0;
+    background-color:white;
+    position:fixed;
+    z-index:999;
+}
+#nameLink{
+    left:20vw;
+}
+#workLink{
+    left:68vw; /* Real: 54 */
+}
+#aboutLink{
+    left:61vw;
+}
+#resumeLink{
+    left:76vw; /* Real: 68 */
+}
+#contactLink{
+    left:76vw;
+}
+#footer{
+    left:0vw;
+    width:100vw;
+    height:5vw;
+}
+#footerStatic{
+    position:static;
+    width:100vw;
+    height:5vw;
+    padding-top:5vw;
+}
+#emailLink{
+    left:20vw;
+}
+#linkedinLink{
+    left:75vw;
+}

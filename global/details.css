@@ -1,0 +1,87 @@
+#details{
+    top:45vw;
+    left:35vw;
+    width:45vw;
+    padding-bottom:3vw;
+}
+#details img{
+  display: block;
+  border-radius:0.5vw;
+  width: 100% !important;
+  height: auto !important;
+  position: static !important;
+  float: none !important;
+  clear: both;
+}
+#details p{
+  line-height: 1.8;
+}
+#details li{
+  line-height: 1.8;
+  margin-left:3vw !important;
+}
+#details .empty-line {
+  height: 1vw;
+}
+.text{
+  font-size:clamp(16px,1.1vw,1.1vw) !important;
+}
+.title{
+  font-size:clamp(34px,2.5vw,2.5vw) !important;
+  color:rgb(50,50,50) !important;
+  font-family: "Inter", sans-serif !important;
+}
+.largeText{
+  font-size:clamp(24px,1.7vw,1.7vw) !important;
+}
+.smallText{
+  font-size:clamp(13px,0.9vw,0.9vw) !important;
+}
+#banner{
+    top:7vw;
+    left:20vw;
+    width:60vw;
+    border-radius:1vw;
+}
+#sidebar{
+  left:20vw;
+  top:46vw;
+  width:11vw;
+  border-left:0.1vw solid rgb(220,220,220);
+  padding-left:0.7vw;
+  clip-path: inset(0.2vw 0 1.1vw 0);
+}
+.sectionHeader{
+  position:static;
+  font-size:clamp(14px,1.0vw,1.0vw);
+  opacity:0.4;
+  padding-bottom:1vw;
+  cursor:pointer;
+  transition:0.1s opacity,0.2s transform;
+}
+.sectionHeader:hover{
+  transform:translateX(0.5vw);
+}
+#backButton{
+  left:35vw;
+  width:45vw;
+  height:3vw;
+  background-color:rgb(50,50,50);
+  color:rgb(255, 255, 255);
+  text-decoration:none;
+  font-size:1.0vw;
+  border-radius:0.4vw;
+  box-shadow:0px 2px 5px 0.5px rgba(0,0,0,0.2);
+  transition:0.1s all;
+}
+#backButton::after{
+    content:"➜";
+    font-size:0;
+    opacity:0;
+    transition:0.2s all;
+}
+#backButton:hover::after{
+    font-size:1.0vw;
+    opacity:1;
+    padding-left:0.5vw;
+}
