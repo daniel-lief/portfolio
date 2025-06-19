@@ -3,7 +3,7 @@ var pageHtml = `
       <a href = "../" class = "medFont link headLink" id = "nameLink">Daniel Lief</a>
       <a href = "../#work" class = "medFont link headLink" id = "workLink">Work</a>
       <!--<a href = "/about" class = "medFont link headLink" id = "aboutLink">About</a>-->
-      <a target="_blank" href = "/resume.pdf" class = "medFont link headLink" id = "resumeLink">Resume</a>
+      <a target="_blank" href = "../resume.pdf" class = "medFont link headLink" id = "resumeLink">Resume</a>
       <!--<a href = "/contact" class = "medFont link headLink" id = "contactLink">Contact</a>-->
     </div>
     <div id = "sidebar">
