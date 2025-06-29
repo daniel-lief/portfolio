@@ -18,6 +18,12 @@
   left:60vw;
   top:10vw;
 }
+#piccaption{
+    width:20vw;
+    left:60vw;
+    top:41vw;
+    text-align:center;
+}
 .divider{
     left:20vw;
     width:60vw;
@@ -48,6 +54,6 @@
     animation-delay:0.3s;
 }
 @keyframes expand{
-    0%{transform:scale(0);}
-    100%{transform:scale(1);}
+    0%{transform:scale(0)}
+    100%{transform:scale(1)}
 }

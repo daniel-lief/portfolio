@@ -69,3 +69,7 @@ img{
 .link:hover::after {
   width: 100%;
 }
+.caption{
+    font-size:0.9vw;
+    color:rgb(170,170,170);
+}

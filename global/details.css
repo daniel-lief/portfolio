@@ -38,11 +38,16 @@
 .smallText{
   font-size:clamp(13px,0.9vw,0.9vw) !important;
 }
-#banner{
+.banner{
     top:7vw;
     left:20vw;
     width:60vw;
     border-radius:1vw;
+}
+.bannerblur{
+  transform:scale(1.01);
+  filter:blur(0.8vw);
+  opacity:0.6;
 }
 #sidebar{
   left:20vw;

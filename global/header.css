@@ -19,15 +19,12 @@
     left:20vw;
 }
 #workLink{
-    left:68vw; /* Real: 54 */
+    left:62vw;
 }
 #aboutLink{
-    left:61vw;
+    left:69vw;
 }
 #resumeLink{
-    left:76vw; /* Real: 68 */
-}
-#contactLink{
     left:76vw;
 }
 #footer{

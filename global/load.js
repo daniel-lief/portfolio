@@ -2,14 +2,14 @@ var pageHtml = `
     <div id = "header">
       <a href = "../" class = "medFont link headLink" id = "nameLink">Daniel Lief</a>
       <a href = "../#work" class = "medFont link headLink" id = "workLink">Work</a>
-      <!--<a href = "/about" class = "medFont link headLink" id = "aboutLink">About</a>-->
+      <a href = "../about" class = "medFont link headLink" id = "aboutLink">About</a>
       <a target="_blank" href = "../resume.pdf" class = "medFont link headLink" id = "resumeLink">Resume</a>
-      <!--<a href = "/contact" class = "medFont link headLink" id = "contactLink">Contact</a>-->
     </div>
     <div id = "sidebar">
 
     </div>
-    <img src = "banner.png" id = "banner">
+    <img src = "banner.png" class = "banner bannerblur">
+    <img src = "banner.png" class = "banner">
     <div id = "details">
         
     </div>
