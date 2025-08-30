@@ -11,21 +11,27 @@
     width:100vw;
     height:5vw;
     top:0;
-    background-color:white;
+    background: white;
     position:fixed;
     z-index:999;
+    box-shadow:none;
+    transition:box-shadow 1s;
+
+}
+#header.scrolled{
+    box-shadow:0px 2px 5px 0.5px rgba(0,0,0,0.1);
 }
 #nameLink{
-    left:20vw;
+    left:19vw;
 }
 #workLink{
-    left:62vw;
+    right:36vw;
 }
 #aboutLink{
-    left:69vw;
+    right:29vw;
 }
 #resumeLink{
-    left:76vw;
+    right:21vw;
 }
 #footer{
     left:0vw;

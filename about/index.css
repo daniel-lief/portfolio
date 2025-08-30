@@ -10,13 +10,6 @@
     filter:saturate(200%);
     transition:1s all;
 }
-#videocaption{
-    position:absolute;
-    width:25vw;
-    text-align:center;
-    top:37vw;
-    left:55vw;
-}
 .fade{
     opacity:0;
     animation-name:fadeIn;
